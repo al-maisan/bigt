@@ -1,0 +1,16 @@
+[package]
+authors = ["Muharem Hrnjadovic <m@sky1.vip>"]
+description ="a bulk invoice generator tool"
+edition = "2021"
+name = "bigt"
+readme = "README.md"
+repository = "https://github.com/al-maisan/bigt"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.11", features = ["derive"] }
+serde = { version = "1.0.193", features = ["derive"] }
+tinytemplate = "1.2.1"
+

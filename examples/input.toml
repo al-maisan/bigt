@@ -1,0 +1,53 @@
+title = "invoice, rust training from 2024-01-18 in Zug"
+
+[from]
+name = "abc training company"
+addr1 = "Bahnhofstrasse 1"
+zip = "6000"
+city = "Zug"
+state = "Zug"
+country = "Switzerland" 
+
+[invoice]
+number = "3001 6780 3394 XXXX" # X is a placeholder will be replaced by invoice number
+payment_due = "2024-02-18"
+
+[recipients]
+
+[Graydon]
+name = "Graydon Hoare"
+organization = "Mozilla foundation"
+addr1 = "Bahnhofstrasse 2"
+zip = "6001"
+city = "Zug"
+country = "Switzerland" 
+
+[Lars]
+name = "Lars Bergstrom"
+organization = "Rust foundation"
+addr1 = "Bahnhofstrasse 3"
+zip = "6001"
+city = "Zug"
+country = "Switzerland" 
+
+[Mara]
+name = "Mara Bos"
+addr1 = "Bahnhofstrasse 4"
+zip = "6001"
+city = "Zug"
+country = "Switzerland" 
+
+[Peixin Hou]
+name = "Peixin Hou"
+addr1 = "Bahnhofstrasse 5"
+zip = "6001"
+city = "Zug"
+country = "Switzerland" 
+
+[Scott McMurray]
+name = "Scott McMurray"
+addr1 = "Bahnhofstrasse 6"
+zip = "6001"
+city = "Zug"
+country = "Switzerland" 
+organization = "Rustaceans Inc."
